@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+  
+}
+
+
+body {
+  background-color:aquamarine;
+  
+  
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.page {
+  background-color:#ffffff;
+  font-family: var(--font-sans);
+}
+
+
+.divider {
+  border-top: 1px solid var(--foreground);
+  margin: 1rem 0;
+  height: 2px; 
+  background: linear-gradient(right, transparent, #8c8c8c, transparent);
+}
