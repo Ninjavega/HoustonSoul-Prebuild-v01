@@ -24,5 +24,5 @@ body {
   border-top: 1px solid var(--foreground);
   margin: 1rem 0;
   height: 2px; 
-  background: linear-gradient(right, transparent, #8c8c8c, transparent);
+  background: linear-gradient(to right, transparent, #8c8c8c, transparent);
 }
