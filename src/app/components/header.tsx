@@ -4,7 +4,7 @@ export function Header() {
   return (
     <header className='flex justify-between items mb-4 content-center gap-4'>
         <div className='font-bold text-2x1'>
-        <Link href={'/'}>LiteQl</Link>
+        <Link href={'/'}>HTXSOUL</Link>
     </div>
     
     <nav>
@@ -13,7 +13,7 @@ export function Header() {
                 <Link href={'/'}>Home</Link>
             </li>
             <li>
-                <Link href={'/blog'}>Blog</Link>
+                <Link href={'/'}>Blog</Link>
             </li>
             <li>
                 <Link href={'/about'}>About</Link>

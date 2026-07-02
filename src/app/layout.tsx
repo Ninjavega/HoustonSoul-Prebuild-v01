@@ -29,7 +29,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${inter.className} antialiased`}>
-        <div className="page max-w-[780px] p-4 md:p-10 mx-auto bg- min-h-screen">
+        <div className="page max-w-[1200px] p-4 md:p-10 mx-auto bg- min-h-screen">
           <Header />  
         {children}
         <Footer />
